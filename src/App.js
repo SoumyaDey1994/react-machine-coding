@@ -1,4 +1,5 @@
 import "./App.css";
+import Accordian from "./components/Accordian/Accordian";
 import Home from "./components/Home/home";
 import ProgressBar from "./components/ProgresBar/ProgressBar";
 
@@ -14,6 +15,10 @@ function App() {
     {
       path: "/progress",
       element: <ProgressBar/>
+    },
+    {
+      path: "/accordian",
+      element: <Accordian/>
     }
   ])
 

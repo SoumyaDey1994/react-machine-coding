@@ -1,12 +1,14 @@
 .container {
-  width: 60%;
-  margin: auto;
+  width: 80%;
+  margin: 20px auto;
+  height: 50vh;
+  border: 1px solid gray;
 }
 .outer {
   border: 1px solid black;
   border-radius: 10px;
   overflow: hidden;
-  margin: 20px auto;
+  margin: 20px 20px;
 }
 
 .inner {
