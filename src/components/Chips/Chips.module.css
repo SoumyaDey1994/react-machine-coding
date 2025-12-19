@@ -1,0 +1,34 @@
+.chipsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    padding: 8px;
+    width: 200px;
+}
+
+.chipItemContainer {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 20px;
+    flex-wrap: nowrap;
+}
+
+.chipItem {
+    background: rgb(223, 213, 213);
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.chipItem button {
+    color: red;
+    background: transparent;
+    border: none;
+    font-size: large;
+    margin: 5px;
+}

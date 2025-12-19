@@ -1,5 +1,6 @@
 import "./App.css";
 import Accordian from "./components/Accordian/Accordian";
+import Chips from "./components/Chips/Chips";
 import Home from "./components/Home/home";
 import ProgressBar from "./components/ProgresBar/ProgressBar";
 
@@ -19,6 +20,10 @@ function App() {
     {
       path: "/accordian",
       element: <Accordian/>
+    },
+    {
+      path: "/chips",
+      element: <Chips />
     }
   ])
 
