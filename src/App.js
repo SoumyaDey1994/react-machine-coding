@@ -2,6 +2,7 @@ import "./App.css";
 import Accordian from "./components/Accordian/Accordian";
 import Chips from "./components/Chips/Chips";
 import Home from "./components/Home/home";
+import PaginationDemo from "./components/Pagination";
 import ProgressBar from "./components/ProgresBar/ProgressBar";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -24,6 +25,10 @@ function App() {
     {
       path: "/chips",
       element: <Chips />
+    },
+    {
+      path: "/pagination",
+      element: <PaginationDemo />
     }
   ])
 
