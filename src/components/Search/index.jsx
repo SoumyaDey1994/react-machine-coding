@@ -5,6 +5,7 @@ const Search = () => {
   const [input, setInput] = useState("");
   const [products, setProducts] = useState([]);
   const [savedData, setSavedData] = useState({});
+  const [showResults, setShowResults] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(fetchRecords, 500);
@@ -45,9 +46,11 @@ const Search = () => {
         className="search-input"
         value={input}
         onChange={(e) => handleInputChange(e)}
+        onFocus={() => setShowResults(true)}
+        onBlur={() => setShowResults(false)}
       />
       {products.length === 0 && <div>No Results Found</div>}
-      {products.length > 0 && input.length > 0 && (
+      {products.length > 0 && showResults && (
         <div className="suggestion-container">
           {products.map((product) => (
             <div key={product.id} className="item">
