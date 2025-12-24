@@ -6,6 +6,7 @@ import PaginationDemo from "./components/Pagination";
 import ProgressBar from "./components/ProgresBar/ProgressBar";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Search from "./components/Search";
 
 function App() {
 
@@ -29,6 +30,10 @@ function App() {
     {
       path: "/pagination",
       element: <PaginationDemo />
+    },
+    {
+      path: "/search",
+      element: <Search />
     }
   ])
 

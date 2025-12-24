@@ -1,0 +1,36 @@
+.search-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.search-input {
+    width: 60%;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.suggestion-container {
+    width: 60%;
+    margin: auto;
+    max-height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.item {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.item:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
