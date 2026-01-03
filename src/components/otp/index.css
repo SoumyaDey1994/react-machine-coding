@@ -1,0 +1,26 @@
+.otp-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.otp-input {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: larger;
+}
+
+.otp-input:focus {
+    border: 2px solid black;
+}
+
+.otp-btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 10px;
+}

@@ -7,37 +7,41 @@ import ProgressBar from "./components/ProgresBar/ProgressBar";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Search from "./components/Search";
+import { OtpInput } from "./components/otp";
 
 function App() {
-
   const appRouter = createBrowserRouter([
     {
       path: "/",
-      element: <Home/>
+      element: <Home />,
     },
     {
       path: "/progress",
-      element: <ProgressBar/>
+      element: <ProgressBar />,
     },
     {
       path: "/accordian",
-      element: <Accordian/>
+      element: <Accordian />,
     },
     {
       path: "/chips",
-      element: <Chips />
+      element: <Chips />,
     },
     {
       path: "/pagination",
-      element: <PaginationDemo />
+      element: <PaginationDemo />,
     },
     {
       path: "/search",
-      element: <Search />
-    }
-  ])
+      element: <Search />,
+    },
+    {
+      path: "/otp",
+      element: <OtpInput />,
+    },
+  ]);
 
-  return <RouterProvider router={appRouter} />
+  return <RouterProvider router={appRouter} />;
 }
 
 export default App;
