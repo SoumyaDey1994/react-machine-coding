@@ -1,0 +1,22 @@
+.checkbox-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.checkboxes{
+    text-align: center;
+    padding-left: 100px;
+}
+
+.checkbox {
+    margin: 10px 5px;
+}
+
+.checkbox-input {
+    font-size: large;
+}
+
+.checkbox-label {
+    margin: 5px;
+}

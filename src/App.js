@@ -8,6 +8,7 @@ import ProgressBar from "./components/ProgresBar/ProgressBar";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Search from "./components/Search";
 import { OtpInput } from "./components/otp";
+import { NestedCheckbox } from "./components/CheckBox";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -38,6 +39,10 @@ function App() {
     {
       path: "/otp",
       element: <OtpInput />,
+    },
+    {
+      path: "/checkbox",
+      element: <NestedCheckbox />,
     },
   ]);
 
