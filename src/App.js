@@ -9,6 +9,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Search from "./components/Search";
 import { OtpInput } from "./components/otp";
 import { NestedCheckbox } from "./components/CheckBox";
+import { FileExplorer } from "./components/FileExplorer";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -44,6 +45,10 @@ function App() {
       path: "/checkbox",
       element: <NestedCheckbox />,
     },
+    {
+      path: "/explorer",
+      element: <FileExplorer />
+    }
   ]);
 
   return <RouterProvider router={appRouter} />;

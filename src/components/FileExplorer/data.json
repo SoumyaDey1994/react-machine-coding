@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "public",
+    "isDir": true,
+    "children": [
+      {
+        "id": 1.1,
+        "name": "index.html",
+        "isDir": false
+      },
+      {
+        "id": 1.2,
+        "name": "logo.png",
+        "isDir": false
+      },
+      {
+        "id": 1.3,
+        "name": "manifest.json",
+        "isDir": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "src",
+    "isDir": true,
+    "children": [
+      {
+        "id": 2.1,
+        "name": "components",
+        "isDir": true,
+        "children": [
+          {
+            "id": 2.11,
+            "name": "File Explorer",
+            "isDir": true,
+            "children": [
+              {
+                "id": 2.111,
+                "name": "explorer.jsx",
+                "isDir": false
+              },
+              {
+                "id": 2.112,
+                "name": "explorer.css",
+                "isDir": false
+              }
+            ]
+          },
+        {
+            "id": 2.12,
+            "name": "OTP Input",
+            "isDir": true,
+            "children": [
+              {
+                "id": 2.121,
+                "name": "otp.jsx",
+                "isDir": false
+              },
+              {
+                "id": 2.122,
+                "name": "otp.css",
+                "isDir": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2.2,
+        "name": "index.js",
+        "isDir": false
+      },
+      {
+        "id": 2.3,
+        "name": "index.css",
+        "isDir": false
+      },
+      {
+        "id": 2.4,
+        "name": "App.js",
+        "isDir": false
+      },
+      {
+        "id": 2.5,
+        "name": "App.css",
+        "isDir": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "package.json",
+    "isDir": false
+  },
+  {
+    "id": 4,
+    "name": "README.md",
+    "isDir": false
+  }
+]
