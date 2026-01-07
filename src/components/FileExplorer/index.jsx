@@ -13,15 +13,16 @@ export const FileExplorer = () => {
       isDir: true,
       children: [],
     };
-    console.log(`New Folder: ${name}`);
 
     setFileList((prev) => {
       const updateFileList = (list) => {
         return list.map((node) => {
           if (node.id === nodeId) {
             return { ...node, children: [newFolder, ...node.children] };
-          } else if (node?.children > 0) {
-            return updateFileList(node.children);
+          }
+
+          if (node.isDir && node.children) {
+            return { ...node, children: updateFileList(node.children) };
           }
 
           return node;
@@ -33,16 +34,38 @@ export const FileExplorer = () => {
     });
   };
 
+  const removeFromList = (itemId) => {
+    setFileList((prev) => {
+      const removeItem = (list) => {
+        return list
+          .filter((item) => item.id !== itemId)
+          .map((item) => {
+            if (item.children && item.children.length > 0) {
+              item.children = [...removeItem(item.children)];
+            }
+            return item;
+          });
+      };
+
+      const updatedList = removeItem(prev);
+      return updatedList;
+    });
+  };
+
   return (
     <div className="root-container">
       <h1>File Explorer</h1>
-      <Explorer fileList={fileList} addFolder={addFolder} />
+      <Explorer
+        fileList={fileList}
+        addFolder={addFolder}
+        removeFromList={removeFromList}
+      />
     </div>
   );
 };
 
 const Explorer = (props) => {
-  const { fileList, addFolder } = props;
+  const { fileList, addFolder, removeFromList } = props;
   const [itemsExpanded, setItemsExpanded] = useState({});
 
   const handleClick = (item) => {
@@ -79,22 +102,34 @@ const Explorer = (props) => {
               {item.name}
             </span>
             {item.isDir && (
-              <button
-                className="add-folder-btn"
-                onClick={() => addFolder(item.id)}
-              >
+              <button className="option-btn" onClick={() => addFolder(item.id)}>
                 <img
                   src="https://uxwing.com/wp-content/themes/uxwing/download/file-and-folder-type/add-folder-icon.png"
                   alt="add-folder"
                   width="20px"
-                  className="add-folder-icon"
+                  className="option-icon"
                 />
               </button>
             )}
+            <button
+              className="option-btn"
+              onClick={() => removeFromList(item.id)}
+            >
+              <img
+                src="https://www.clipartmax.com/png/middle/84-842915_delete-icon-png-red.png"
+                alt="remove"
+                width="30px"
+                className="option-icon"
+              />
+            </button>
             {itemsExpanded?.[item.id] &&
               item.isDir &&
               item.children?.length > 0 && (
-                <Explorer fileList={item.children} addFolder={addFolder} />
+                <Explorer
+                  fileList={item.children}
+                  addFolder={addFolder}
+                  removeFromList={removeFromList}
+                />
               )}
           </div>
         );

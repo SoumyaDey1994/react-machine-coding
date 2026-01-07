@@ -23,12 +23,13 @@
     cursor: pointer;
 }
 
-.add-folder-btn {
+.option-btn {
     background: transparent;
     padding-top: 5px;
     border: none;
     cursor: pointer;
 }
-.add-folder-icon {
+
+.option-icon {
     margin-left: 20px;
 }
