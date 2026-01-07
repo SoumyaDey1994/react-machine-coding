@@ -10,6 +10,7 @@ import Search from "./components/Search";
 import { OtpInput } from "./components/otp";
 import { NestedCheckbox } from "./components/CheckBox";
 import { FileExplorer } from "./components/FileExplorer";
+import { ToDoList } from "./components/ToDoList";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -48,6 +49,10 @@ function App() {
     {
       path: "/explorer",
       element: <FileExplorer />
+    },
+    {
+      path: "/todo",
+      element: <ToDoList />
     }
   ]);
 
