@@ -11,6 +11,7 @@ import { OtpInput } from "./components/otp";
 import { NestedCheckbox } from "./components/CheckBox";
 import { FileExplorer } from "./components/FileExplorer";
 import { ToDoList } from "./components/ToDoList";
+import { TabForm } from "./components/TabForm";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -53,6 +54,10 @@ function App() {
     {
       path: "/todo",
       element: <ToDoList />
+    },
+    {
+      path: "/tabs",
+      element: <TabForm />
     }
   ]);
 

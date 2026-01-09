@@ -1,0 +1,35 @@
+.tabs-container {
+    width: 80%;
+    margin: auto;
+}
+
+.tab-headers {
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tab-headers > button {
+    width: 210px;
+    padding: 5px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.tab-body {
+    border: 1px solid black;
+    height: 300px;
+    padding: 5px;
+    width: 40%;
+}
+
+.tab-actions {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.tab-actions > button {
+    padding: 20px;
+    margin: 5px;
+}
