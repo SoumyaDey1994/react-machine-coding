@@ -8,22 +8,31 @@ const TAB_LIST = [
   {
     id: 0,
     name: "Profile",
-    component: <Profile />,
+    component: Profile,
   },
   {
     id: 1,
     name: "Skills",
-    component: <Skills />,
+    component: Skills,
   },
   {
     id: 2,
     name: "Settins",
-    component: <Settings />,
+    component: Settings,
   },
 ];
 
 export const TabForm = () => {
   const [activeTab, setActiveTab] = useState(0);
+  const [data, setData] = useState({});
+  const [shouldDisplayData, setShouldDisplayData] = useState(false);
+
+  const ActiveComponent = TAB_LIST[activeTab]?.component;
+
+  const onSubmit = () => {
+    setShouldDisplayData(true);
+  };
+
   return (
     <div className="tabs-container">
       <div className="tab-headers">
@@ -39,7 +48,9 @@ export const TabForm = () => {
           );
         })}
       </div>
-      <div className="tab-body">{TAB_LIST[activeTab]?.component}</div>
+      <div className="tab-body">
+        {ActiveComponent && <ActiveComponent data={data} setData={setData} />}
+      </div>
       <div className="tab-actions">
         {activeTab > 0 && (
           <button
@@ -58,8 +69,13 @@ export const TabForm = () => {
           </button>
         )}
         {activeTab === TAB_LIST.length - 1 && (
-          <button type="submit">Submit</button>
+          <button type="submit" onClick={onSubmit}>
+            Submit
+          </button>
         )}
+      </div>
+      <div className="data-container">
+        {shouldDisplayData && <pre>{JSON.stringify(data)}</pre>}
       </div>
     </div>
   );
