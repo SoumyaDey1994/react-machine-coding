@@ -13,6 +13,7 @@ import { FileExplorer } from "./components/FileExplorer";
 import { ToDoList } from "./components/ToDoList";
 import { TabForm } from "./components/TabForm";
 import { OtpInput22012026 } from "./components/Otp/otp22012026";
+import { FileExplorer26012026 } from "./components/FileExplorer/fileExplorer26012026";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -51,7 +52,8 @@ function App() {
     },
     {
       path: "/explorer",
-      element: <FileExplorer />
+      // element: <FileExplorer />
+      element: <FileExplorer26012026 />
     },
     {
       path: "/todo",
