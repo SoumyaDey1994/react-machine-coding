@@ -63,6 +63,12 @@ const Home = () => {
             2nd Progres Bar
           </Link>
         </button>
+
+        <button className={styles.navigation}>
+          <Link to={"/search-autocomplete"} target="_blank" rel="noopener noreferrer">
+            Search Autocomplete
+          </Link>
+        </button>
       </div>
     </div>
   );

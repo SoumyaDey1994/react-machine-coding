@@ -15,6 +15,8 @@ import { TabForm } from "./components/TabForm";
 import { OtpInput22012026 } from "./components/Otp/otp22012026";
 import { FileExplorer26012026 } from "./components/FileExplorer/fileExplorer26012026";
 import { ProgressBar2 } from "./components/ProgressBar2/progressBar2";
+import { SearchAutoComplete } from './components/Search2/SearchAutoComplete';
+
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -67,6 +69,10 @@ function App() {
     {
       path: "/progress2",
       element: <ProgressBar2 />
+    },
+    {
+      path: "/search-autocomplete",
+      element: <SearchAutoComplete />
     }
   ]);
 
