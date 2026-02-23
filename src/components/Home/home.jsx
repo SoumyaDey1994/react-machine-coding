@@ -57,6 +57,12 @@ const Home = () => {
             Tabs Component
           </Link>
         </button>
+
+        <button className={styles.navigation}>
+          <Link to={"/progress2"} target="_blank" rel="noopener noreferrer">
+            2nd Progres Bar
+          </Link>
+        </button>
       </div>
     </div>
   );

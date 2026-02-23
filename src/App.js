@@ -14,6 +14,7 @@ import { ToDoList } from "./components/ToDoList";
 import { TabForm } from "./components/TabForm";
 import { OtpInput22012026 } from "./components/Otp/otp22012026";
 import { FileExplorer26012026 } from "./components/FileExplorer/fileExplorer26012026";
+import { ProgressBar2 } from "./components/ProgressBar2/progressBar2";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -62,6 +63,10 @@ function App() {
     {
       path: "/tabs",
       element: <TabForm />
+    },
+    {
+      path: "/progress2",
+      element: <ProgressBar2 />
     }
   ]);
 

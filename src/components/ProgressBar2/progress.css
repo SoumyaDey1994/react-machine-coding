@@ -1,0 +1,25 @@
+.container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+.outer {
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 30px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.inner {
+    width: auto;
+    background-color: green;
+    border-radius: 10px;
+    height: 30px;
+    transition: 1s ease-out;
+    text-align: right;
+    padding-right: 5px;
+    overflow: visible;
+}
