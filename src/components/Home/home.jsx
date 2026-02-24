@@ -41,6 +41,12 @@ const Home = () => {
         </button>
 
         <button className={styles.navigation}>
+          <Link to={"/checkbox"} target="_blank" rel="noopener noreferrer">
+            Nested Checkbox
+          </Link>
+        </button>
+
+        <button className={styles.navigation}>
           <Link to={"/explorer"} target="_blank" rel="noopener noreferrer">
             File Explorer
           </Link>
@@ -65,10 +71,17 @@ const Home = () => {
         </button>
 
         <button className={styles.navigation}>
-          <Link to={"/search-autocomplete"} target="_blank" rel="noopener noreferrer">
-            Search Autocomplete
+          <Link to={"/nested-checkbox"} target="_blank" rel="noopener noreferrer">
+            Nested Checkbox 2
           </Link>
         </button>
+
+        <button className={styles.navigation}>
+          <Link to={"/search-autocomplete"} target="_blank" rel="noopener noreferrer">
+            Search Autocomplete 2
+          </Link>
+        </button>
+
       </div>
     </div>
   );

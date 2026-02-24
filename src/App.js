@@ -16,7 +16,7 @@ import { OtpInput22012026 } from "./components/Otp/otp22012026";
 import { FileExplorer26012026 } from "./components/FileExplorer/fileExplorer26012026";
 import { ProgressBar2 } from "./components/ProgressBar2/progressBar2";
 import { SearchAutoComplete } from './components/Search2/SearchAutoComplete';
-
+import { NestedCheckbox as NestedCheckbox2 } from "./components/NestedCheckbox/NestedCheckbox";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -73,6 +73,10 @@ function App() {
     {
       path: "/search-autocomplete",
       element: <SearchAutoComplete />
+    },
+    {
+      path: "/nested-checkbox",
+      element: <NestedCheckbox2 />
     }
   ]);
 
