@@ -77,6 +77,12 @@ const Home = () => {
         </button>
 
         <button className={styles.navigation}>
+          <Link to={"/otp-input-2"} target="_blank" rel="noopener noreferrer">
+            OTP Input 2
+          </Link>
+        </button>
+
+        <button className={styles.navigation}>
           <Link to={"/search-autocomplete"} target="_blank" rel="noopener noreferrer">
             Search Autocomplete 2
           </Link>
