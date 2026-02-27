@@ -1,0 +1,37 @@
+.explorer-container {
+    width: 80%;
+    text-align: left;
+}
+
+.explorer-item-container {
+    padding-left: 30px;
+}
+
+.explorer-item {
+    display: block;
+}
+
+.expand-btn {
+    margin-right: 10px;
+}
+
+.add-btn {
+    margin: 5px;
+    padding: auto;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+.remove-btn {
+    margin: 5px;
+    width: 100px;
+    padding: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px;
+    background-color: red;
+    color: white;
+}

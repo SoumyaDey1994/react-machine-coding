@@ -88,6 +88,12 @@ const Home = () => {
           </Link>
         </button>
 
+        <button className={styles.navigation}>
+          <Link to={"/file-explorer-2"} target="_blank" rel="noopener noreferrer">
+            File Explorer 2
+          </Link>
+        </button>
+
       </div>
     </div>
   );

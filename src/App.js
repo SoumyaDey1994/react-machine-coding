@@ -18,7 +18,7 @@ import { ProgressBar2 } from "./components/ProgressBar2/progressBar2";
 import { SearchAutoComplete } from './components/Search2/SearchAutoComplete';
 import { NestedCheckbox as NestedCheckbox2 } from "./components/NestedCheckbox/NestedCheckbox";
 import { Otp2 } from "./components/Otp2/Otp2";
-
+import { FileExplorer2 } from './components/FileExplorer2/FileExplorer';
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -83,6 +83,10 @@ function App() {
     {
       path: "/otp-input-2",
       element: <Otp2 />
+    },
+    {
+      path: "/file-explorer-2",
+      element: <FileExplorer2 />
     }
   ]);
 
