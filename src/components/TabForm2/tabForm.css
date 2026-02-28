@@ -1,0 +1,67 @@
+.root-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.tab-container {
+    margin: auto;
+    width: 50%;
+    height: 50vh;
+    border: 1px solid gray;
+    align-items:flex-start
+}
+
+.tab-group {
+    display: flex;
+}
+
+.tab-btn {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.action-btn-group {
+    display: flex;
+    justify-content: center;
+}
+
+.action-btn {
+    width: 5%;
+    height: 50px;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.section {
+    margin: 20px;
+    font-size: large;
+    padding: auto;
+    text-align: left;
+}
+
+.section-label {
+    margin: 10px;
+}
+
+.section-input {
+    width: 300px;
+    height: 5vh;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.tab-data {
+    font-size: larger;
+}
+
+.data-key {
+    margin: 10px;
+    font-weight: 700;
+}

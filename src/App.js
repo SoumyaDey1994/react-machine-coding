@@ -19,6 +19,7 @@ import { SearchAutoComplete } from './components/Search2/SearchAutoComplete';
 import { NestedCheckbox as NestedCheckbox2 } from "./components/NestedCheckbox/NestedCheckbox";
 import { Otp2 } from "./components/Otp2/Otp2";
 import { FileExplorer2 } from './components/FileExplorer2/FileExplorer';
+import { TabForm2 } from "./components/TabForm2/TabForm";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -87,6 +88,10 @@ function App() {
     {
       path: "/file-explorer-2",
       element: <FileExplorer2 />
+    },
+    {
+      path: "/tabs-2",
+      element: <TabForm2 />
     }
   ]);
 
