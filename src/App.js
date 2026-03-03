@@ -20,6 +20,8 @@ import { NestedCheckbox as NestedCheckbox2 } from "./components/NestedCheckbox/N
 import { Otp2 } from "./components/Otp2/Otp2";
 import { FileExplorer2 } from './components/FileExplorer2/FileExplorer';
 import { TabForm2 } from "./components/TabForm2/TabForm";
+import { Accordian2 } from "./components/Accordian2/Accordian2";
+
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -92,6 +94,10 @@ function App() {
     {
       path: "/tabs-2",
       element: <TabForm2 />
+    },
+    {
+      path: "/accordian-2",
+      element: <Accordian2 />
     }
   ]);
 

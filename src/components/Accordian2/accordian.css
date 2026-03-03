@@ -1,0 +1,43 @@
+.container {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordian-group {
+    width: 90%;
+    text-align: left;
+    align-items: center;
+}
+
+.accordian {
+    margin: 10px;
+    padding: 10px;
+    display: block;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+    background-color: rgb(226, 177, 118);
+    justify-content: space-between;
+}
+
+
+.header > button {
+    background: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    margin: auto 20px;
+    cursor: pointer;
+}
+
+.body {
+    background-color: aliceblue;
+    padding: 10px;
+}
