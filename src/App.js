@@ -21,7 +21,7 @@ import { Otp2 } from "./components/Otp2/Otp2";
 import { FileExplorer2 } from './components/FileExplorer2/FileExplorer';
 import { TabForm2 } from "./components/TabForm2/TabForm";
 import { Accordian2 } from "./components/Accordian2/Accordian2";
-
+import { ToDo2 } from "./components/ToDoList2/todo2";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -98,6 +98,10 @@ function App() {
     {
       path: "/accordian-2",
       element: <Accordian2 />
+    },
+    {
+      path: "/todo-list-2",
+      element: <ToDo2 />
     }
   ]);
 

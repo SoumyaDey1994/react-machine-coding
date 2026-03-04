@@ -106,6 +106,12 @@ const Home = () => {
           </Link>
         </button>
 
+        <button className={styles.navigation}>
+          <Link to={"/todo-list-2"} target="_blank" rel="noopener noreferrer">
+            Todo List 2
+          </Link>
+        </button>
+
       </div>
     </div>
   );

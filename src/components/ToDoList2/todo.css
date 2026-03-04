@@ -1,0 +1,47 @@
+.todo-conatainer {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.todo-input {
+    margin: 50px auto;
+    width: 80%;
+    height: 30px;
+    font-size: large;
+    padding: 5px;
+    margin: 5px;
+}
+
+.todo-list {
+    width: 40%;
+    margin: 20px auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    justify-content: center;
+    align-self: center;
+}
+
+.todo-item {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.todo-item > span {
+    font-size: large;
+    font-weight: 500;
+    height: auto;
+}
+
+.todo-item > button {
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
