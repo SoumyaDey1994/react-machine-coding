@@ -1,0 +1,41 @@
+.chips-container {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.chip-input {
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    font-size: large;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.item-container {
+    margin: 20px auto;
+    border: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    padding: 10px;
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.item:hover {
+    background: rgb(214, 191, 163);
+}
+
+.item > button {
+    color: red;
+    margin-left: 5px;
+    background: transparent;
+    border: none;
+    font-size: large;
+    cursor: pointer;
+}

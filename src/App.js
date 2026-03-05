@@ -15,13 +15,14 @@ import { TabForm } from "./components/TabForm";
 import { OtpInput22012026 } from "./components/Otp/otp22012026";
 import { FileExplorer26012026 } from "./components/FileExplorer/fileExplorer26012026";
 import { ProgressBar2 } from "./components/ProgressBar2/progressBar2";
-import { SearchAutoComplete } from './components/Search2/SearchAutoComplete';
+import { SearchAutoComplete } from "./components/Search2/SearchAutoComplete";
 import { NestedCheckbox as NestedCheckbox2 } from "./components/NestedCheckbox/NestedCheckbox";
 import { Otp2 } from "./components/Otp2/Otp2";
-import { FileExplorer2 } from './components/FileExplorer2/FileExplorer';
+import { FileExplorer2 } from "./components/FileExplorer2/FileExplorer";
 import { TabForm2 } from "./components/TabForm2/TabForm";
 import { Accordian2 } from "./components/Accordian2/Accordian2";
 import { ToDo2 } from "./components/ToDoList2/todo2";
+import { ChipsInput2 } from "./components/Chips2/ChipsInput2";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -61,48 +62,52 @@ function App() {
     {
       path: "/explorer",
       // element: <FileExplorer />
-      element: <FileExplorer26012026 />
+      element: <FileExplorer26012026 />,
     },
     {
       path: "/todo",
-      element: <ToDoList />
+      element: <ToDoList />,
     },
     {
       path: "/tabs",
-      element: <TabForm />
+      element: <TabForm />,
     },
     {
-      path: "/progress2",
-      element: <ProgressBar2 />
+      path: "/progress-2",
+      element: <ProgressBar2 />,
     },
     {
       path: "/search-autocomplete",
-      element: <SearchAutoComplete />
+      element: <SearchAutoComplete />,
     },
     {
       path: "/nested-checkbox",
-      element: <NestedCheckbox2 />
+      element: <NestedCheckbox2 />,
     },
     {
       path: "/otp-input-2",
-      element: <Otp2 />
+      element: <Otp2 />,
     },
     {
       path: "/file-explorer-2",
-      element: <FileExplorer2 />
+      element: <FileExplorer2 />,
     },
     {
       path: "/tabs-2",
-      element: <TabForm2 />
+      element: <TabForm2 />,
     },
     {
       path: "/accordian-2",
-      element: <Accordian2 />
+      element: <Accordian2 />,
     },
     {
       path: "/todo-list-2",
-      element: <ToDo2 />
-    }
+      element: <ToDo2 />,
+    },
+    {
+      path: "/chips-input-2",
+      element: <ChipsInput2 />,
+    },
   ]);
 
   return <RouterProvider router={appRouter} />;

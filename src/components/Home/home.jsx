@@ -65,8 +65,8 @@ const Home = () => {
         </button>
 
         <button className={styles.navigation}>
-          <Link to={"/progress2"} target="_blank" rel="noopener noreferrer">
-            2nd Progres Bar
+          <Link to={"/progress-2"} target="_blank" rel="noopener noreferrer">
+            Progres Bar 2
           </Link>
         </button>
 
@@ -109,6 +109,12 @@ const Home = () => {
         <button className={styles.navigation}>
           <Link to={"/todo-list-2"} target="_blank" rel="noopener noreferrer">
             Todo List 2
+          </Link>
+        </button>
+
+        <button className={styles.navigation}>
+          <Link to={"/chips-input-2"} target="_blank" rel="noopener noreferrer">
+            Chips Input 2
           </Link>
         </button>
 
