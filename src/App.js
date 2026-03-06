@@ -23,6 +23,7 @@ import { TabForm2 } from "./components/TabForm2/TabForm";
 import { Accordian2 } from "./components/Accordian2/Accordian2";
 import { ToDo2 } from "./components/ToDoList2/todo2";
 import { ChipsInput2 } from "./components/Chips2/ChipsInput2";
+import { Pagination2 } from "./components/Pagination2/Pagination2";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -107,6 +108,10 @@ function App() {
     {
       path: "/chips-input-2",
       element: <ChipsInput2 />,
+    },
+    {
+      path: "/pagination-2",
+      element: <Pagination2 />,
     },
   ]);
 
