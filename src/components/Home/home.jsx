@@ -124,6 +124,12 @@ const Home = () => {
           </Link>
         </button>
 
+        <button className={styles.navigation}>
+          <Link to={"/virtualized-list"} target="_blank" rel="noopener noreferrer">
+            Virtualization with Grid
+          </Link>
+        </button>
+
       </div>
     </div>
   );

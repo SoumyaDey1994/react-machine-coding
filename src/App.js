@@ -24,6 +24,7 @@ import { Accordian2 } from "./components/Accordian2/Accordian2";
 import { ToDo2 } from "./components/ToDoList2/todo2";
 import { ChipsInput2 } from "./components/Chips2/ChipsInput2";
 import { Pagination2 } from "./components/Pagination2/Pagination2";
+import { VirtualizedList } from "./components/Virtualization";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -112,6 +113,10 @@ function App() {
     {
       path: "/pagination-2",
       element: <Pagination2 />,
+    },
+    {
+      path: "/virtualized-list",
+      element: <VirtualizedList />,
     },
   ]);
 
