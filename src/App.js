@@ -25,6 +25,7 @@ import { ToDo2 } from "./components/ToDoList2/todo2";
 import { ChipsInput2 } from "./components/Chips2/ChipsInput2";
 import { Pagination2 } from "./components/Pagination2/Pagination2";
 import { VirtualizedList } from "./components/Virtualization";
+import { NestedCheckbox3 } from "./components/NestedCheckbox2/NestedCheckbox2";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -117,6 +118,10 @@ function App() {
     {
       path: "/virtualized-list",
       element: <VirtualizedList />,
+    },
+    {
+      path: "/nested-checkbox-3",
+      element: <NestedCheckbox3 />,
     },
   ]);
 

@@ -130,6 +130,12 @@ const Home = () => {
           </Link>
         </button>
 
+        <button className={styles.navigation}>
+          <Link to={"/nested-checkbox-3"} target="_blank" rel="noopener noreferrer">
+            Nested Checkbox 3
+          </Link>
+        </button>
+
       </div>
     </div>
   );

@@ -1,0 +1,19 @@
+.root-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.checkbox-container {
+    margin: 10px auto;
+    padding-left: 100px;
+}
+
+.checkbox-node {
+    margin: auto;
+    justify-content: center;
+}
+
+.checkbox {
+    font-size: larger;
+}
