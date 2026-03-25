@@ -136,6 +136,12 @@ const Home = () => {
           </Link>
         </button>
 
+        <button className={styles.navigation}>
+          <Link to={"/otp-input-3"} target="_blank" rel="noopener noreferrer">
+            OTP Input 3
+          </Link>
+        </button>
+
       </div>
     </div>
   );

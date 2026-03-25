@@ -1,0 +1,23 @@
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.otpInputBox {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: larger;
+    text-align: center;
+}
+
+.submitBtn {
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+}

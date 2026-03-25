@@ -26,6 +26,7 @@ import { ChipsInput2 } from "./components/Chips2/ChipsInput2";
 import { Pagination2 } from "./components/Pagination2/Pagination2";
 import { VirtualizedList } from "./components/Virtualization";
 import { NestedCheckbox3 } from "./components/NestedCheckbox2/NestedCheckbox2";
+import { Otp3 } from "./components/Otp3/Otp3";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -122,6 +123,10 @@ function App() {
     {
       path: "/nested-checkbox-3",
       element: <NestedCheckbox3 />,
+    },
+    {
+      path: "/otp-input-3",
+      element: <Otp3 />,
     },
   ]);
 
