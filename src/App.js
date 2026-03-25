@@ -27,6 +27,7 @@ import { Pagination2 } from "./components/Pagination2/Pagination2";
 import { VirtualizedList } from "./components/Virtualization";
 import { NestedCheckbox3 } from "./components/NestedCheckbox2/NestedCheckbox2";
 import { Otp3 } from "./components/Otp3/Otp3";
+import { ToDo3 } from "./components/ToDoList3/ToDo3";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -127,6 +128,10 @@ function App() {
     {
       path: "/otp-input-3",
       element: <Otp3 />,
+    },
+    {
+      path: "/todo-list-3",
+      element: <ToDo3 />,
     },
   ]);
 

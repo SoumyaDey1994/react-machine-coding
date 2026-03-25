@@ -1,0 +1,38 @@
+.conatiner {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.item-group {
+    width: 80%;
+    border: 1px solid gray;
+    margin: auto;
+    height: auto;
+    min-height: 50vh;
+}
+
+.todo-input {
+    width: 80%;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: larger;
+    margin: 20px;
+}
+
+.todo-items {
+    width: 60%;
+    border: 1px solid gray;
+    margin: auto;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.todo-item {
+    padding: 2px;
+}
+
+.strike {
+    text-decoration: line-through;
+}
