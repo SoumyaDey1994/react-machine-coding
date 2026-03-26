@@ -148,6 +148,12 @@ const Home = () => {
           </Link>
         </button>
 
+        <button className={styles.navigation}>
+          <Link to={"/tabs-3"} target="_blank" rel="noopener noreferrer">
+            Tabs Component 3
+          </Link>
+        </button>
+
       </div>
     </div>
   );

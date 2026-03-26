@@ -28,6 +28,7 @@ import { VirtualizedList } from "./components/Virtualization";
 import { NestedCheckbox3 } from "./components/NestedCheckbox2/NestedCheckbox2";
 import { Otp3 } from "./components/Otp3/Otp3";
 import { ToDo3 } from "./components/ToDoList3/ToDo3";
+import { TabForm3 } from "./components/TabForm3/TabForm3";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -132,6 +133,10 @@ function App() {
     {
       path: "/todo-list-3",
       element: <ToDo3 />,
+    },
+    {
+      path: "/tabs-3",
+      element: <TabForm3 />,
     },
   ]);
 
