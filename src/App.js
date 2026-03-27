@@ -29,6 +29,7 @@ import { NestedCheckbox3 } from "./components/NestedCheckbox2/NestedCheckbox2";
 import { Otp3 } from "./components/Otp3/Otp3";
 import { ToDo3 } from "./components/ToDoList3/ToDo3";
 import { TabForm3 } from "./components/TabForm3/TabForm3";
+import { SearchAutoComplete3 } from "./components/Search3/Search3";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -137,6 +138,10 @@ function App() {
     {
       path: "/tabs-3",
       element: <TabForm3 />,
+    },
+    {
+      path: "/search-autocomplete-3",
+      element: <SearchAutoComplete3 />,
     },
   ]);
 
