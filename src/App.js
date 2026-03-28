@@ -30,6 +30,7 @@ import { Otp3 } from "./components/Otp3/Otp3";
 import { ToDo3 } from "./components/ToDoList3/ToDo3";
 import { TabForm3 } from "./components/TabForm3/TabForm3";
 import { SearchAutoComplete3 } from "./components/Search3/Search3";
+import { ChipsInput3 } from "./components/Chips3/ChipsInput3";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -142,6 +143,10 @@ function App() {
     {
       path: "/search-autocomplete-3",
       element: <SearchAutoComplete3 />,
+    },
+    {
+      path: "/chips-input-3",
+      element: <ChipsInput3 />,
     },
   ]);
 

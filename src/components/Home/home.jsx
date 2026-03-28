@@ -71,7 +71,11 @@ const Home = () => {
         </button>
 
         <button className={styles.navigation}>
-          <Link to={"/nested-checkbox"} target="_blank" rel="noopener noreferrer">
+          <Link
+            to={"/nested-checkbox"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Nested Checkbox 2
           </Link>
         </button>
@@ -83,13 +87,21 @@ const Home = () => {
         </button>
 
         <button className={styles.navigation}>
-          <Link to={"/search-autocomplete"} target="_blank" rel="noopener noreferrer">
+          <Link
+            to={"/search-autocomplete"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Search Autocomplete 2
           </Link>
         </button>
 
         <button className={styles.navigation}>
-          <Link to={"/file-explorer-2"} target="_blank" rel="noopener noreferrer">
+          <Link
+            to={"/file-explorer-2"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             File Explorer 2
           </Link>
         </button>
@@ -125,13 +137,21 @@ const Home = () => {
         </button>
 
         <button className={styles.navigation}>
-          <Link to={"/virtualized-list"} target="_blank" rel="noopener noreferrer">
+          <Link
+            to={"/virtualized-list"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Virtualization with Grid
           </Link>
         </button>
 
         <button className={styles.navigation}>
-          <Link to={"/nested-checkbox-3"} target="_blank" rel="noopener noreferrer">
+          <Link
+            to={"/nested-checkbox-3"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Nested Checkbox 3
           </Link>
         </button>
@@ -155,11 +175,20 @@ const Home = () => {
         </button>
 
         <button className={styles.navigation}>
-          <Link to={"/search-autocomplete-3"} target="_blank" rel="noopener noreferrer">
+          <Link
+            to={"/search-autocomplete-3"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Search Autocomplete 3
           </Link>
         </button>
 
+        <button className={styles.navigation}>
+          <Link to={"/chips-input-3"} target="_blank" rel="noopener noreferrer">
+            Chips Input 3
+          </Link>
+        </button>
       </div>
     </div>
   );

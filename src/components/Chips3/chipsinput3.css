@@ -1,0 +1,35 @@
+.root-container {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.item-input {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  font-size: large;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.item-container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid gray;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  border: 1px solid gray;
+  background-color: bisque;
+  color: black;
+}
+
+.item > button {
+  color: red;
+  font-size: large;
+  padding: 2px;
+}
