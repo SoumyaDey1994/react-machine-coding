@@ -189,6 +189,12 @@ const Home = () => {
             Chips Input 3
           </Link>
         </button>
+
+        <button className={styles.navigation}>
+          <Link to={"/file-explorer-3"} target="_blank" rel="noopener noreferrer">
+            File Explorer 3
+          </Link>
+        </button>
       </div>
     </div>
   );

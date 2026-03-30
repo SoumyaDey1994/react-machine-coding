@@ -31,6 +31,7 @@ import { ToDo3 } from "./components/ToDoList3/ToDo3";
 import { TabForm3 } from "./components/TabForm3/TabForm3";
 import { SearchAutoComplete3 } from "./components/Search3/Search3";
 import { ChipsInput3 } from "./components/Chips3/ChipsInput3";
+import { FileExplorer3 } from "./components/FileExplorer3/FileExplorer3";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -147,6 +148,10 @@ function App() {
     {
       path: "/chips-input-3",
       element: <ChipsInput3 />,
+    },
+    {
+      path: "/file-explorer-3",
+      element: <FileExplorer3 />,
     },
   ]);
 
