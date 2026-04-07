@@ -191,8 +191,18 @@ const Home = () => {
         </button>
 
         <button className={styles.navigation}>
-          <Link to={"/file-explorer-3"} target="_blank" rel="noopener noreferrer">
+          <Link
+            to={"/file-explorer-3"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             File Explorer 3
+          </Link>
+        </button>
+
+        <button className={styles.navigation}>
+          <Link to={"/progress-3"} target="_blank" rel="noopener noreferrer">
+            Progress Bar 3
           </Link>
         </button>
       </div>
