@@ -1,0 +1,11 @@
+.root-container {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.stock-list {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}

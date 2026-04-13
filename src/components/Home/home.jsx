@@ -205,6 +205,16 @@ const Home = () => {
             Progress Bar 3
           </Link>
         </button>
+
+        <button className={styles.navigation}>
+          <Link
+            to={"/stock-dashboard"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Stock Dashboard
+          </Link>
+        </button>
       </div>
     </div>
   );

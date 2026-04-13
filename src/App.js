@@ -33,6 +33,7 @@ import { SearchAutoComplete3 } from "./components/Search3/Search3";
 import { ChipsInput3 } from "./components/Chips3/ChipsInput3";
 import { FileExplorer3 } from "./components/FileExplorer3/FileExplorer3";
 import { ProgressBar3 } from "./components/ProgressBar3/ProgressBar3";
+import StockDashboard from "./components/RealTimeStockDashboard/StockDashboard";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -158,6 +159,10 @@ function App() {
       path: "/progress-3",
       element: <ProgressBar3 />,
     },
+    {
+      path: "/stock-dashboard",
+      element: <StockDashboard />
+    }
   ]);
 
   return <RouterProvider router={appRouter} />;
