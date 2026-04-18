@@ -215,6 +215,12 @@ const Home = () => {
             Stock Dashboard
           </Link>
         </button>
+
+        <button className={styles.navigation}>
+          <Link to={"/otp-input-4"} target="_blank" rel="noopener noreferrer">
+            OTP Input 4
+          </Link>
+        </button>
       </div>
     </div>
   );

@@ -34,6 +34,7 @@ import { ChipsInput3 } from "./components/Chips3/ChipsInput3";
 import { FileExplorer3 } from "./components/FileExplorer3/FileExplorer3";
 import { ProgressBar3 } from "./components/ProgressBar3/ProgressBar3";
 import StockDashboard from "./components/RealTimeStockDashboard/StockDashboard";
+import { Otp4 } from "./components/Otp4/Otp4";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -161,8 +162,12 @@ function App() {
     },
     {
       path: "/stock-dashboard",
-      element: <StockDashboard />
-    }
+      element: <StockDashboard />,
+    },
+    {
+      path: "/otp-input-4",
+      element: <Otp4 />,
+    },
   ]);
 
   return <RouterProvider router={appRouter} />;

@@ -1,0 +1,14 @@
+.root-conatiner {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.otp-input-box {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: large;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
