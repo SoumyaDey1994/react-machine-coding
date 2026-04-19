@@ -221,6 +221,16 @@ const Home = () => {
             OTP Input 4
           </Link>
         </button>
+
+        <button className={styles.navigation}>
+          <Link
+            to={"/nested-checkbox-4"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Nested Checkbox 4
+          </Link>
+        </button>
       </div>
     </div>
   );
