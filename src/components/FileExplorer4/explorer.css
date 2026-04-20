@@ -1,0 +1,13 @@
+.root-container {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.node-item {
+    padding-left: 30px;
+}
+
+.node {
+    margin: 5px;
+}

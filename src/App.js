@@ -36,6 +36,7 @@ import { ProgressBar3 } from "./components/ProgressBar3/ProgressBar3";
 import StockDashboard from "./components/RealTimeStockDashboard/StockDashboard";
 import { Otp4 } from "./components/Otp4/Otp4";
 import { NestedCheckbox4 } from "./components/NestedCheckbox4/NestedCheckbox4";
+import { FileExplorer4 } from "./components/FileExplorer4/FileExplorer4";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -172,6 +173,10 @@ function App() {
     {
       path: "/nested-checkbox-4",
       element: <NestedCheckbox4 />,
+    },
+    {
+      path: "/file-explorer-4",
+      element: <FileExplorer4 />,
     },
   ]);
 
