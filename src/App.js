@@ -37,6 +37,7 @@ import StockDashboard from "./components/RealTimeStockDashboard/StockDashboard";
 import { Otp4 } from "./components/Otp4/Otp4";
 import { NestedCheckbox4 } from "./components/NestedCheckbox4/NestedCheckbox4";
 import { FileExplorer4 } from "./components/FileExplorer4/FileExplorer4";
+import { ToDo4 } from "./components/ToDoList4/ToDoList4";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -177,6 +178,10 @@ function App() {
     {
       path: "/file-explorer-4",
       element: <FileExplorer4 />,
+    },
+    {
+      path: "/todo-list-4",
+      element: <ToDo4 />,
     },
   ]);
 
