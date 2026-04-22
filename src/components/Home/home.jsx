@@ -247,6 +247,13 @@ const Home = () => {
             ToDo List 4
           </Link>
         </button>
+
+        <button className={styles.navigation}>
+          <Link to={"/pagination-3"} target="_blank" rel="noopener noreferrer">
+            Pagination 3
+          </Link>
+        </button>
+
       </div>
     </div>
   );

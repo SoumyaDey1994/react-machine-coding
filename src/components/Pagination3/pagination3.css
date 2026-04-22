@@ -1,0 +1,55 @@
+.root-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.item-container {
+    width: 90%;
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-evenly;
+    border: none;
+}
+
+.recipy-item {
+    display: block;
+    border: 1px solid gray;
+    width: 250px;
+    height: auto;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.item > img {
+    width: 150px;
+    height: 200px;
+    margin: auto;
+    padding: 5px;
+}
+
+.page-btn {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    color: rgb(20, 136, 232);
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.page-btn:hover, .active-btn {
+    color: white;
+    background-color: rgb(20, 136, 232);
+}
+
+.nav-btn {
+    width: 50px;
+    height: 50px;
+    font-size: x-large;
+    background: none;
+    border: none;
+    cursor: pointer;
+}

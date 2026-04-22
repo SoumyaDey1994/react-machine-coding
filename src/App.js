@@ -38,6 +38,7 @@ import { Otp4 } from "./components/Otp4/Otp4";
 import { NestedCheckbox4 } from "./components/NestedCheckbox4/NestedCheckbox4";
 import { FileExplorer4 } from "./components/FileExplorer4/FileExplorer4";
 import { ToDo4 } from "./components/ToDoList4/ToDoList4";
+import { Pagination3 } from "./components/Pagination3/Pagination3";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -182,6 +183,10 @@ function App() {
     {
       path: "/todo-list-4",
       element: <ToDo4 />,
+    },
+    {
+      path: "/pagination-3",
+      element: <Pagination3 />,
     },
   ]);
 
