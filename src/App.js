@@ -40,6 +40,7 @@ import { FileExplorer4 } from "./components/FileExplorer4/FileExplorer4";
 import { ToDo4 } from "./components/ToDoList4/ToDoList4";
 import { Pagination3 } from "./components/Pagination3/Pagination3";
 import { SearchAutoComplete4 } from "./components/Search4/SearchAutoComplete4";
+import { TabForm4 } from "./components/TabForm4/TabForm4";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -192,6 +193,10 @@ function App() {
     {
       path: "/search-autocomplete-4",
       element: <SearchAutoComplete4 />,
+    },
+    {
+      path: "/tabs-4",
+      element: <TabForm4 />,
     },
   ]);
 

@@ -263,6 +263,16 @@ const Home = () => {
             Search AutoComplete 4
           </Link>
         </button>
+
+        <button className={styles.navigation}>
+          <Link
+            to={"/tabs-4"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Tabs Component 4
+          </Link>
+        </button>
       </div>
     </div>
   );
