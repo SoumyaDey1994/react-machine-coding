@@ -1,39 +1,80 @@
 .root-container {
-    width: 80%;
-    margin: auto;
-    text-align: center;
+  width: 80%;
+  margin: auto;
+  text-align: center;
 }
 
 .tab-container {
-    width: 60%;
-    margin: auto;
+  width: 60%;
+  margin: auto;
 }
 
 .tab-titles {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .tab-titles > button {
-    width: 100%;
-    height: 50px;
+  width: 100%;
+  height: 50px;
 }
 
 .tab-body {
-    width: 90%;
-    border: none;
-    text-align: center;
+  width: 90%;
+  border: none;
+  text-align: center;
 }
 
 .tab-navigation {
-    width: 30%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
+  width: 30%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .tab-navigation > button {
-    height: 50px;
-    margin: 20px 10px;
+  height: 50px;
+  margin: 20px 10px;
+}
+
+.profile-details {
+  display: block;
+  text-align: left;
+}
+
+.profile-details > input {
+  height: 30px;
+  width: 300px;
+  display: block;
+  margin: 20px;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.tab-details {
+  display: block;
+  text-align: left;
+  margin: 20px;
+}
+
+.skill {
+  padding: 10px;
+}
+
+.skill > input {
+  margin: 0px 10px;
+  font-size: larger;
+}
+
+.skill > span {
+  font-weight: 500;
+  font-size: larger;
+}
+
+.theme-category > input {
+  margin: 10px;
+  padding: 10px;
+  font-size: larger;
 }

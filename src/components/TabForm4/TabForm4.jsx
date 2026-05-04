@@ -21,8 +21,17 @@ const TAB_DETAILS = [
     component: Settings,
   },
 ];
+
 export const TabForm4 = () => {
   const [activeTab, setActiveTab] = useState(0);
+  const [tabData, setTabData] = useState({});
+  const [shouldDisplayData, setShouldDisplayData] = useState(false);
+
+  const saveFormData = (sectionName, dataObj) => {
+    const updatedData = { ...tabData };
+    updatedData[sectionName] = { ...updatedData[sectionName], ...dataObj };
+    setTabData(updatedData);
+  };
 
   const ActiveTabComponent = TAB_DETAILS[activeTab].component;
 
@@ -38,7 +47,7 @@ export const TabForm4 = () => {
           ))}
         </div>
         <div className="tab-body">
-          <ActiveTabComponent />
+          <ActiveTabComponent data={tabData} saveData={saveFormData} />
         </div>
       </div>
       <div className="tab-navigation">
@@ -48,8 +57,12 @@ export const TabForm4 = () => {
         {activeTab < TAB_DETAILS.length - 1 && (
           <button onClick={() => setActiveTab((prev) => prev + 1)}>Next</button>
         )}
-        {activeTab === TAB_DETAILS.length - 1 && <button>Submit</button>}
+        {activeTab === TAB_DETAILS.length - 1 && (
+          <button onClick={() => setShouldDisplayData(true)}>Submit</button>
+        )}
       </div>
+
+      {shouldDisplayData && <div>{JSON.stringify(tabData)}</div>}
     </div>
   );
 };
