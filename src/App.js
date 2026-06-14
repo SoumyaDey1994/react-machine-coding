@@ -41,6 +41,7 @@ import { ToDo4 } from "./components/ToDoList4/ToDoList4";
 import { Pagination3 } from "./components/Pagination3/Pagination3";
 import { SearchAutoComplete4 } from "./components/Search4/SearchAutoComplete4";
 import { TabForm4 } from "./components/TabForm4/TabForm4";
+import { ChipsInput4 } from "./components/Chips4/ChipsInput4";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -197,6 +198,10 @@ function App() {
     {
       path: "/tabs-4",
       element: <TabForm4 />,
+    },
+    {
+      path: "/chips-input-4",
+      element: <ChipsInput4 />,
     },
   ]);
 

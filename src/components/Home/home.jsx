@@ -265,12 +265,14 @@ const Home = () => {
         </button>
 
         <button className={styles.navigation}>
-          <Link
-            to={"/tabs-4"}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link to={"/tabs-4"} target="_blank" rel="noopener noreferrer">
             Tabs Component 4
+          </Link>
+        </button>
+
+        <button className={styles.navigation}>
+          <Link to={"/chips-input-4"} target="_blank" rel="noopener noreferrer">
+            Chips Input 4
           </Link>
         </button>
       </div>
