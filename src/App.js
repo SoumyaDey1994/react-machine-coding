@@ -42,6 +42,7 @@ import { Pagination3 } from "./components/Pagination3/Pagination3";
 import { SearchAutoComplete4 } from "./components/Search4/SearchAutoComplete4";
 import { TabForm4 } from "./components/TabForm4/TabForm4";
 import { ChipsInput4 } from "./components/Chips4/ChipsInput4";
+import { Todo5 } from "./components/ToDoList5/Todo5";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -202,6 +203,10 @@ function App() {
     {
       path: "/chips-input-4",
       element: <ChipsInput4 />,
+    },
+    {
+      path: "/todo-list-5",
+      element: <Todo5 />,
     },
   ]);
 

@@ -1,0 +1,44 @@
+.root-conatiner {
+  width: 80%;
+  margin: auto;
+}
+
+.item-input {
+  width: 80%;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  font-size: larger;
+}
+
+.item-container {
+  width: 60%;
+  margin: 20px auto;
+  border: 2px solid gray;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.item {
+  background-color: rgb(174, 237, 237);
+  padding: 10px;
+}
+
+.item:hover {
+  background-color: rgb(26, 173, 173);
+}
+.item > input {
+  margin: 0px 10px;
+}
+
+.item > button {
+  cursor: pointer;
+  margin: 0px 10px;
+}
+
+.item > span {
+  text-decoration-thickness: 10px;
+}
