@@ -1,0 +1,25 @@
+.root-container {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.otp-input-box {
+    height: 50px;
+    margin: 5px 20x;
+    border: 1px solid gray;
+}
+
+.submitBtn {
+    margin: 20px auto;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(5, 130, 225);
+}
+
+.submitBtn:disabled {
+    background-color: rgb(228, 223, 223);
+    color: black;
+}

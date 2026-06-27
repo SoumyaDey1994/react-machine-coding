@@ -43,6 +43,7 @@ import { SearchAutoComplete4 } from "./components/Search4/SearchAutoComplete4";
 import { TabForm4 } from "./components/TabForm4/TabForm4";
 import { ChipsInput4 } from "./components/Chips4/ChipsInput4";
 import { Todo5 } from "./components/ToDoList5/Todo5";
+import { Otp5 } from "./components/Otp5/OtpInput5";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -207,6 +208,10 @@ function App() {
     {
       path: "/todo-list-5",
       element: <Todo5 />,
+    },
+    {
+      path: "/otp-input-5",
+      element: <Otp5 />,
     },
   ]);
 
