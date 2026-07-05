@@ -1,0 +1,11 @@
+.root-container {
+    width: 60%;
+    margin: auto;
+}
+
+.explorer-container {
+    padding: 5px;
+    padding-left: 20px;
+    margin: 5px;
+    font-size: large;
+}

@@ -287,6 +287,16 @@ const Home = () => {
             OTP Input 5
           </Link>
         </button>
+
+        <button className={styles.navigation}>
+          <Link
+            to={"/file-explorer-5"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            File Explorer 5
+          </Link>
+        </button>
       </div>
     </div>
   );
