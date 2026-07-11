@@ -45,6 +45,7 @@ import { ChipsInput4 } from "./components/Chips4/ChipsInput4";
 import { Todo5 } from "./components/ToDoList5/Todo5";
 import { Otp5 } from "./components/Otp5/OtpInput5";
 import { FileExplorer5 } from "./components/FileExplorer5/FileExplorer5";
+import { NestedCheckbox5 } from "./components/NestedCheckbox5/NestedCheckbox5";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -217,6 +218,10 @@ function App() {
     {
       path: "/file-explorer-5",
       element: <FileExplorer5 />,
+    },
+    {
+      path: "/nested-checkbox-5",
+      element: <NestedCheckbox5 />,
     },
   ]);
 

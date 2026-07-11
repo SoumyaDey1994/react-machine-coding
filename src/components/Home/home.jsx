@@ -297,6 +297,16 @@ const Home = () => {
             File Explorer 5
           </Link>
         </button>
+
+        <button className={styles.navigation}>
+          <Link
+            to={"/nested-checkbox-5"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Nested Checkbox 5
+          </Link>
+        </button>
       </div>
     </div>
   );
