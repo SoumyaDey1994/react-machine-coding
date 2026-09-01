@@ -12,8 +12,7 @@ import { NestedCheckbox } from "./components/CheckBox";
 import { FileExplorer } from "./components/FileExplorer";
 import { ToDoList } from "./components/ToDoList";
 import { TabForm } from "./components/TabForm";
-import { OtpInput22012026 } from "./components/Otp/otp22012026";
-import { FileExplorer26012026 } from "./components/FileExplorer/fileExplorer26012026";
+
 import { ProgressBar2 } from "./components/ProgressBar2/progressBar2";
 import { SearchAutoComplete } from "./components/Search2/SearchAutoComplete";
 import { NestedCheckbox as NestedCheckbox2 } from "./components/NestedCheckbox/NestedCheckbox";
@@ -75,8 +74,7 @@ function App() {
     },
     {
       path: "/otp",
-      // element: <OtpInput />,
-      element: <OtpInput22012026 />,
+      element: <OtpInput />,
     },
     {
       path: "/checkbox",
@@ -84,8 +82,7 @@ function App() {
     },
     {
       path: "/explorer",
-      // element: <FileExplorer />
-      element: <FileExplorer26012026 />,
+      element: <FileExplorer />,
     },
     {
       path: "/todo",
